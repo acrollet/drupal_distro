@@ -2,14 +2,14 @@ drupal 7 distribution
 
 To install this profile using drush make, run the following commands:
 
-cat > /tmp/drupaldist.make << EOF
+cat > /tmp/drupal_distro.make << EOF
 core = 7.x
 api = 2
 
 projects[drupal] = 7.7
 
-projects[drupaldist][type] = "profile"
-projects[drupaldist][download][type] = "git"
-projects[drupaldist][download][url] = "git@github.com:acrollet/drupal_dist.git"
+projects[drupal_distro][type] = "profile"
+projects[drupal_distro][download][type] = "git"
+projects[drupal_distro][download][url] = "git@github.com:acrollet/drupal_dist.git"
 EOF
-drush make /tmp/drupaldist.make make
+drush make /tmp/drupal_distro.make new_site_dir
