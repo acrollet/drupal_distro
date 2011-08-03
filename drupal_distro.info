@@ -32,3 +32,6 @@ dependencies[] = link
 dependencies[] = token
 dependencies[] = pathauto
 dependencies[] = admin_menu
+dependencies[] = backup_migrate
+dependencies[] = environment_indicator
+

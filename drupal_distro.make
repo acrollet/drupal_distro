@@ -35,12 +35,16 @@ projects[drupal][version] = 7
 ; --------
 projects[admin_menu][version] = 3.0-rc1
 projects[admin_menu][type] = "module"
+projects[backup_migrate][version] = 2.2
+projects[backup_migrate][type] = "module"
 projects[ctools][version] = 1.0-beta1
 projects[ctools][type] = "module"
 projects[context][version] = 3.0-beta1
 projects[context][type] = "module"
 projects[devel][version] = 1.2
 projects[devel][type] = "module"
+projects[environment_indicator][version] = 1.0
+projects[environment_indicator][type] = "module"
 projects[features][version] = 1.0-beta3
 projects[features][type] = "module"
 projects[email][version] = 1.0-beta1
@@ -55,7 +59,6 @@ projects[views][version] = 3.0-rc1
 projects[views][type] = "module"
 projects[xmlsitemap][version] = 2.0-beta3
 projects[xmlsitemap][type] = "module"
-
   
 
 ; Themes
