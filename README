@@ -10,6 +10,6 @@ projects[drupal] = 7.7
 
 projects[drupaldist][type] = "profile"
 projects[drupaldist][download][type] = "git"
-projects[drupaldist][download][url] = "git@github.com:acrollet/reponame.git"
+projects[drupaldist][download][url] = "git@github.com:acrollet/drupal_dist.git"
 EOF
-drush make /tmp/drupaldist.make sitedir
+drush make /tmp/drupaldist.make make
