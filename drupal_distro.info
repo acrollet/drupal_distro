@@ -1,4 +1,4 @@
-name = SCDUG Installation Profile
+name = drupal_distro
 description = SCDUG test installation profile
 version = VERSION
 core = 7.x
