@@ -1,0 +1,15 @@
+drupal 7 distribution
+
+To install this profile using drush make, run the following commands:
+
+cat > /tmp/drupaldist.make << EOF
+core = 7.x
+api = 2
+
+projects[drupal] = 7.7
+
+projects[drupaldist][type] = "profile"
+projects[drupaldist][download][type] = "git"
+projects[drupaldist][download][url] = "git@github.com:acrollet/reponame.git"
+EOF
+drush make /tmp/drupaldist.make sitedir
